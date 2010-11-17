@@ -1,0 +1,42 @@
+h1. Installation
+
+h2. Create symolic links
+
+    <pre>
+    ln -s $PWD/vim $HOME/.vim
+    ln -s $PWD/vimrc $HOME/.vimrc
+    </pre>
+
+h2. Fetch submodules
+    <pre>
+   	git submodule init
+   	git submodule update
+   	</pre>
+
+h2. Recompile Command-T Ruby C extension for your platform (if other than Mac OS X)
+    <pre>
+   	cd vim/ruby/command-t
+   	ruby extconf.rb
+   	make clean; make
+   	</pre>
+
+h2. To use the Vim macro's that use the project folder detection script, add it the following line to your .bashrc or .bash_profile files
+    <pre>
+   	PATH=$PATH:~/.vim/bin
+   	</pre>
+        
+h1. Plugins
+
+* NerdTree
+* SnipMate
+* SnipMate for django
+* pyunit
+* pyflakes
+* toggle_mouse
+* fugitive
+* abolish
+* ack
+* gundo
+* yankring
+* nerdcommenter
+* ack
