@@ -40,3 +40,4 @@ h1. Plugins
 * yankring
 * nerdcommenter
 * ack
+* lusty-juggler
