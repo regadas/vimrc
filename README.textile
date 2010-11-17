@@ -1,29 +1,28 @@
 h1. Installation
 
 h2. Create symolic links
-
-    <pre>
+    <pre><code>
     ln -s $PWD/vim $HOME/.vim
     ln -s $PWD/vimrc $HOME/.vimrc
-    </pre>
+   	</code></pre>
 
 h2. Fetch submodules
-    <pre>
+    <pre><code>
    	git submodule init
    	git submodule update
-   	</pre>
+   	</code></pre>
 
 h2. Recompile Command-T Ruby C extension for your platform (if other than Mac OS X)
-    <pre>
+    <pre><code>
    	cd vim/ruby/command-t
    	ruby extconf.rb
    	make clean; make
-   	</pre>
+   	</code></pre>
 
 h2. To use the Vim macro's that use the project folder detection script, add it the following line to your .bashrc or .bash_profile files
-    <pre>
+    <pre><code>
    	PATH=$PATH:~/.vim/bin
-   	</pre>
+   	</code></pre>
         
 h1. Plugins
 
