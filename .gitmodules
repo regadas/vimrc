@@ -46,3 +46,6 @@
 [submodule "vim/bundle/l9"]
 	path = vim/bundle/l9
 	url = https://github.com/slack/vim-l9.git
+[submodule "vim/bundle/indent_guides"]
+	path = vim/bundle/indent_guides
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
