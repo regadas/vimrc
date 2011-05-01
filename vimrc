@@ -564,7 +564,9 @@ if has("gui_running")
     "colorscheme baycomb
     "colorscheme mustang
     "colorscheme molokai
-    colorscheme github
+    "colorscheme github
+    set background=dark
+    colorscheme solarized
 
     " Remove toolbar, left scrollbar and right scrollbar
     set guioptions-=T
