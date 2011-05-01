@@ -563,7 +563,8 @@ iab lllorem Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam lacu
 if has("gui_running")
     "colorscheme baycomb
     "colorscheme mustang
-    colorscheme molokai
+    "colorscheme molokai
+    colorscheme github
 
     " Remove toolbar, left scrollbar and right scrollbar
     set guioptions-=T
